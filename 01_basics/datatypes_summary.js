@@ -43,4 +43,33 @@ Number                       Number
 string                       String
 */
 
-console.log(typeof myfunction);
+//console.log(typeof myfunction);
+
+
+
+
+//***********************************************************
+//Stack are used in (Primitive)
+//Heap are used in (Non-Primitive)
+
+
+//Example
+let myyoutubename = "Rajkumardotcom"
+
+let anothername = myyoutubename
+anothername ="Rajkumarcoding"
+
+console.log(anothername);
+console.log(myyoutubename);
+
+
+let userone = {
+   email : "user@gmail.com",
+   upi : "user@ybl",
+}
+
+let usertwo = userone
+
+usertwo.email = "raj@google.com"
+console.log (userone.email)
+console.log(usertwo.email);
