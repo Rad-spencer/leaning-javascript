@@ -29,3 +29,22 @@ const obj2 = {3:"c", 4:"d"}
 const obj3 = {...obj1,...obj2}// this is seprator operator and this is used most of the time
 //console.log(obj3);
 
+
+
+//object destructuring
+// this is generally--Object destructuring is a useful JavaScript feature to extract properties from objects and bind them to variables. Even better, object destructuring can extract multiple properties in a single statement, can access properties from nested objects, and can set a default value if the property doesn't exist.
+const course = {
+    coursename:"Raj Learning js",
+    price: "999",
+    courseInstructor : "Raj"
+}
+
+//course.courseinstructor
+
+const{courseInstructor: instructor} = course
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+//object API
+
