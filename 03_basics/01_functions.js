@@ -30,7 +30,7 @@ function addTwoNumbers(number1,number2){
 const result= addTwoNumbers(1,3)
 // console.log("Result: ", result);
 
-function loginusermessage(username){
+function loginusermessage(username = "Sam"){
     return`${username} just logged in`
 }
 
