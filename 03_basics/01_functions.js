@@ -55,3 +55,10 @@ function handleobject(anyobject){
     handleobject(user)
 
 }
+
+const mynewarray = [200,300,400,500,600]
+
+function returnsecondvalue(getarray){
+    return getarray[1]
+}
+ console.log(returnsecondvalue(mynewarray));
