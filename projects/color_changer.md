@@ -1,5 +1,7 @@
 ##project 1
 
+##HTML
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -47,6 +49,9 @@
 
 ```
 
+
+##CSS
+
 ```css
 html {
   margin: 0;
@@ -85,6 +90,8 @@ span {
 
 ```
 
+
+##Javascript
 
 
 ```javascript
