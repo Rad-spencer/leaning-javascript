@@ -1,5 +1,7 @@
 ##Project 2
 
+##HTML
+
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -41,6 +43,8 @@
 ```
 
 
+
+##CSS
 
 ```CSS
 .container {
@@ -93,6 +97,8 @@ h1 {
 
 ```
 
+
+##javascript
 
 
 ```javascript
