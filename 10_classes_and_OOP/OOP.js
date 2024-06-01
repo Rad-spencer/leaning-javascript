@@ -5,7 +5,7 @@ const user = {
 
     getUserDetails: function(){
         // console.log("Got User Details from Database");
-        console.log(`username: ${this.username}`);
+        //console.log(`username: ${this.username}`);
     }
 }
 
@@ -14,13 +14,15 @@ const user = {
 //console.log(this);
 
 
-function user(username,loginCount,isloggedIn){
+function User(username,loginCount,isloggedIn){
     this.username = username;
     this.loginCount = loginCount;
     this.isloggedIn = isloggedIn;
 
-
+ return this   //you write this or not it does not effect much
 }
 
-const userOne = user("Raj",12,true)
+const userOne = new User("Raj",12,true)
+const userTwo = new User("RajKumar",112,false)
 console.log(userOne);
+console.log(userTwo);
